@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Welcome to Products</title>
+       <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            position: relative;
+            height: 100vh;
+            overflow-x: hidden;
+            overflow-y: auto;
+            color: #333;
+            background-color: black;
+        }
+
+        #video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        header {
+            background: rgba(5, 5, 5, 0.089);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
+            margin: 20px;
+            background: rgba(5, 5, 5, 0.089);
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        p {
+            color: white;
+        }
+
+        h2,
+        h3 {
+            color: white;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: rgba(5, 5, 5, 0.089);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto 20px;
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            section {
+                margin: 10px;
+                padding: 15px;
+            }
+
+            header,
+            footer {
+                padding: 15px;
+            }
+
+            body {
+                height: auto;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.5em;
+            }
+
+            section {
+                margin: 5px;
+                padding: 10px;
+            }
+
+            footer {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <video id="video-background" autoplay muted loop>
+        <source src="assets/5824195-uhd_2560_1440_24fps.mp4" type="video/mp4">
+        Seu navegador não suporta a tag de vídeo.
+    </video>
+
+    <header>
+        <h1>Welcome to Products</h1>
+    </header>
+
+    <br>
+    <section>
+        <p></p>
+        <img src="assets/11.jpg" alt="Produto">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt magnam inventore quam aut possimus sit nobis
+            voluptates soluta molestiae distinctio consequatur expedita, architecto reprehenderit vel eum perspiciatis
+            quae odit? Reiciendis.</p>
+        <p></p>
+    </section>
+    <br>
+
+    <section>
+        <img src="assets/15.jpg" alt="Produto">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit facere ducimus excepturi veniam veritatis.
+            Sint, quia alias provident veniam, doloremque laudantium incidunt recusandae, iure libero corrupti numquam
+            laborum eveniet sunt!</p>
+    </section>
+    <br>
+
+    <section>
+        <img src="assets/14.jpg" alt="Produto">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit facere ducimus excepturi veniam veritatis.
+            Sint, quia alias provident veniam, doloremque laudantium incidunt recusandae, iure libero corrupti numquam
+            laborum eveniet sunt!</p>
+    </section>
+    <br>
+
+    <section>
+        <img src="assets/1.jpg" alt="Produto">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit facere ducimus excepturi veniam veritatis.
+            Sint, quia alias provident veniam, doloremque laudantium incidunt recusandae, iure libero corrupti numquam
+            laborum eveniet sunt!</p>
+    </section>
+    <br>
+
+    <footer>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Various products - All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
